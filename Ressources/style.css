@@ -1,47 +1,25 @@
 html{
-    font-family: Helvetica;
-    font: 22px;
+    font-family: Verdana;
     color: seashell;
-    opacity: 0.9;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 1400px;
+    max-width: 2800px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 header{
     background-color: rgb(0, 0, 0);
-    height: 69px;
     top: 0px;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid seashell;
-}
-header img{
-    height: 50px;
-    margin-left: 10px;
-}
-.headerul{
-    display:flex;
-    align-items: center;
-    list-style: none;
-    margin-right: 20px;
+    text-align: center;
+    font-size: 25px;
 }
 
-.headerul li a{
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    margin-left: 20px;
-    
-}
-.headerul li a:hover{
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    font-size: large;
+header h1{
+    font-weight: lighter;
 }
 
 body{
@@ -70,126 +48,92 @@ body{
 
 
 .missiontext{
-    color:antiquewhite;
+    color: aquamarine;
     background-color: black;
+    font-size: 16px;
     text-align: center;
     width: 1200px;
+    font-weight: lighter;
+       
 }
+.missiontext a:link {
+    color: aquamarine; 
+    font-weight: lighter; 
+}
+.missiontext a:visited{
+    color: aquamarine; 
+}
+.missiontext a:hover {
+    color: aquamarine;
+    font-weight: bold;
+}
+.missiontexta:active{
+    color: aquamarine; 
+}
+
 
 
 .featuretext{
     text-align: center;
     margin-top: 75px;
+    
 }
-
-.featuredisplay{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.featuretext h2{
+    font-weight: lighter;
+    font-size: 42px;
+} 
+.featuretext h3{
+    font-size: 21px; 
+    opacity: 0.5;
+    font-weight: lighter; 
 }
-
-.featurepresentation{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 1000px;
-}
-  
-
-.featurebox img{
-    height: 200px;
-    width: 300px;
-}
-
-.featurebox h4{
-    text-align: center;
-    margin-top: 10px;
-}
-
-.location{
-    background-image: url("./Img/img-locations-background.jpg") ;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position: center;
-    background-size: 1200px 500px;
-    display: block;
-    align-items: center;
-    justify-content: center;
-}
-.location h2{
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 5px;
-}
-.locationboxalign{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.locationbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
-}
-.downtown{
-    background-color: rgb(0, 0, 0);
-    opacity: 1;
-    display: inline-flex;
-    text-align: center;
-    width: 300px;
-    height: 300px;
-    margin:0px 20px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.eastbayside{
+.featuretext h4{
+    color: aquamarine;
     background-color: black;
-    opacity: 1;
-    display: inline-flex;
+    font-size: 16px;
     text-align: center;
-    width: 300px;
-    height: 300px;
-    margin:0px 20px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    width: 1200px;   
 }
-.oakdale{
+
+.featuretext2{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.featuretext2 h2{
+    font-weight: lighter;
+    font-size: 42px;
+}
+
+.featuretext2 h4{
+    color: aquamarine;
     background-color: black;
-    opacity: 1;
-    display: inline-flex;
+    font-size: 16px;
     text-align: center;
-    width: 300px;
-    height: 300px;
-    margin:0px 20px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    width: 1200px; 
+    font-weight: lighter;  
 }
+.featuretext2 h4 a:link {
+    color: aquamarine;  
+}
+.featuretext2 h4 a:visited{
+    color: aquamarine; 
+}
+.featuretext2 h4 a:hover {
+    color: aquamarine;
+    font-weight: lighter; 
+    font-weight: bold; 
+}
+.featuretext2 h4 a:active{
+    color: aquamarine; 
+}
+
 
 footer {
     width: 100%;
 }
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.contact h2{
-    text-align: center;
-}
-.contact h5{
-    text-align: center;
-    margin-top: 5px;
-}
-
 .copyright h5{
-    text-align: left;
+    text-align: right;
     margin-left: 20px;
 }
 
