@@ -135,5 +135,10 @@ footer {
 .copyright h5{
     text-align: right;
     margin-left: 20px;
+    font-weight: lighter;
+}
+.copyright i{
+   color: rgb(255, 255, 255);
+   margin-right: 5px;
 }
 
